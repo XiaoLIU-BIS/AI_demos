@@ -3,7 +3,7 @@ import pandas as pd
 from langchain_openai import AzureChatOpenAI
 from langchain_experimental.agents import create_pandas_dataframe_agent
 
-os.environ["AZURE_OPENAI_API_KEY"] = "402b6da1cb77449db7bd3cd47c252eaf"
+os.environ["AZURE_OPENAI_API_KEY"] = ""
 os.environ["AZURE_OPENAI_ENDPOINT"] = "https://oai-bispoc-dev-001.openai.azure.com"
 
 llm=AzureChatOpenAI(
